@@ -16,8 +16,7 @@ import java.util.List;
 
 @SpringBootTest
 @Slf4j
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-        // Test Method 순서를 위해 추가
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)  // Test Method 순서를 위해 추가
 class UserRepositoryTests {
 
     @Autowired
